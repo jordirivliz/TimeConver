@@ -75,8 +75,7 @@ struct ContentView: View {
                     .pickerStyle(SegmentedPickerStyle())
                 }
                 Section(header: Text("\(numberEntered) \(inputs[unit1]) is equivalent to \(result, specifier: "%.2f") \(outputs[unit2])")){
-                    Text("\(result, specifier: "%.2f")")
-                    
+                    Text("\(result, specifier: "%.2f")")   
                 }
             }
             .navigationBarTitle("TimeConvert")
